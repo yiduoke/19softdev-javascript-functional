@@ -22,7 +22,7 @@ var two = document.getElementById("two");
 var three = document.getElementById("three");
 one.innerHTML = "Age with Most Males: " + age_with_most_males();
 two.innerHTML = "Age with Biggest Gap Between the Sexes: " + age_biggest_gender_gap();
-three.innerHTML = "Ages with More Females than Males: " + JSON.stringify(more_females());
+three.innerHTML = "Ages with More Females than Males: " + JSON.stringify(total_population());
 console.log(age_with_most_males());
 console.log(age_biggest_gender_gap());
 console.log(more_females());
